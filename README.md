@@ -26,11 +26,17 @@ Next, the data was assessed visually and programmatically using various pandas m
 These quality and tidiness issues would impact the quality of analysis and so must be cleaned before any analysis work can be done. Data cleaning activities carried out included: 
 
 •	Deleting retweets so that only original tweets would be included in the dataset
+
 •	Changing datatypes to correct datatypes for ease of analysis
+
 •	Dropping outliers from the analysis since they were few in number and would skew our analysis
+
 •	Dropping null columns
+
 •	Transforming long data to wide data using pd.melt
+
 •	Merging datasets
+
 The Define-Code-Test framework for data cleaning was very helpful in this process and enabled me to methodically work through the data cleaning process.
 At the end of the process, I was enable to generate a cleaned data set and produce beautiful visualizations which revealed interesting insights about the We_rate_dogs archive.
 
